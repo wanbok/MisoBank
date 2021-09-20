@@ -12,6 +12,7 @@
 		186AF9CA26F8D313008FFEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186AF9C926F8D313008FFEEE /* Assets.xcassets */; };
 		186AF9CD26F8D313008FFEEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186AF9CC26F8D313008FFEEE /* Preview Assets.xcassets */; };
 		186AF9D526F8E01F008FFEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186AF9D426F8E01F008FFEEE /* AppDelegate.swift */; };
+		189C1D1126F8E28C00EDB0BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189C1D1026F8E28C00EDB0BC /* GoogleService-Info.plist */; };
 		3674A8B8EC57C91204379C17 /* Pods_MisoBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9520290B2F48CA39DDC981 /* Pods_MisoBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		186AF9CC26F8D313008FFEEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		186AF9CE26F8D313008FFEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186AF9D426F8E01F008FFEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189C1D1026F8E28C00EDB0BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A9AC03855191D38EFA18147 /* Pods-MisoBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoBank.release.xcconfig"; path = "Target Support Files/Pods-MisoBank/Pods-MisoBank.release.xcconfig"; sourceTree = "<group>"; };
 		BFAE85394A8D1AB40E380183 /* Pods-MisoBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisoBank.debug.xcconfig"; path = "Target Support Files/Pods-MisoBank/Pods-MisoBank.debug.xcconfig"; sourceTree = "<group>"; };
 		CF9520290B2F48CA39DDC981 /* Pods_MisoBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisoBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,11 +63,13 @@
 		186AF9C426F8D313008FFEEE /* MisoBank */ = {
 			isa = PBXGroup;
 			children = (
+				189C1D0D26F8E20C00EDB0BC /* Resources */,
 				186AF9D426F8E01F008FFEEE /* AppDelegate.swift */,
 				186AF9C526F8D313008FFEEE /* MisoBankApp.swift */,
 				186AF9C726F8D313008FFEEE /* ContentView.swift */,
 				186AF9C926F8D313008FFEEE /* Assets.xcassets */,
 				186AF9CE26F8D313008FFEEE /* Info.plist */,
+				189C1D1026F8E28C00EDB0BC /* GoogleService-Info.plist */,
 				186AF9CB26F8D313008FFEEE /* Preview Content */,
 			);
 			path = MisoBank;
@@ -77,6 +81,13 @@
 				186AF9CC26F8D313008FFEEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		189C1D0D26F8E20C00EDB0BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		924F47F55E95C6BE14C990DB /* Frameworks */ = {
@@ -157,6 +168,7 @@
 			files = (
 				186AF9CD26F8D313008FFEEE /* Preview Assets.xcassets in Resources */,
 				186AF9CA26F8D313008FFEEE /* Assets.xcassets in Resources */,
+				189C1D1126F8E28C00EDB0BC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
